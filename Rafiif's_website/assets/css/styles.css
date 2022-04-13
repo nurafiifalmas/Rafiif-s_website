@@ -1,0 +1,516 @@
+body{
+  margin: 0;
+  font-family: initial;
+  padding: 0;
+}
+section{
+  float: left;
+  width: 100%;
+  margin: 5px 0;
+}
+footer{
+  clear: both;
+  margin: 0;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(40, 67, 141);
+}
+footer a{
+  position: relative;
+  left: 500px;
+  top: 20px;
+  color: rgb(255, 255, 255);
+}
+
+
+.header{
+  background-color: rgb(40, 67, 141);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.829);
+}
+.navbar h2{
+  position: relative;
+  left: 40px;
+  color: rgb(253, 253, 255);
+  font-size: 20pt;
+}
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;  
+}
+.navbar li {
+  position: relative;
+  left: 40%;
+  right: 0;
+}
+.navbar a{
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(0, 160, 189);
+}
+.navbar a:hover{
+  color: rgb(255, 255, 255);
+}
+
+/*button*/
+.btn{
+  margin: 2px auto;
+  padding: 8px 10px; 
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-success{
+  border: 2px solid #4CAF50;
+  color: rgb(250, 250, 250);
+  background-color: #4CAF50;
+}
+.btn-primary{
+  border: 2px solid #008CBA;
+  color: rgb(250, 250, 250);
+  background-color: #008CBA;
+}
+.btn-danger{
+  border: 2px solid #f44336;
+  color: rgb(250, 250, 250);
+  background-color: #f44336;
+}
+.btn-warning{
+  border: 2px solid rgb(229, 233, 0);
+  color: rgb(250, 250, 250);
+  background-color: rgb(229, 233, 0);
+}
+.btn-success:hover{
+  border: 2px solid rgb(49, 114, 52);
+  color: rgb(250, 250, 250);
+  background-color: rgb(49, 114, 52);
+}
+.btn-primary:hover{
+  border: 2px solid rgb(0, 93, 124);
+  color: rgb(250, 250, 250);
+  background-color: rgb(0, 93, 124);
+}
+.btn-danger:hover{
+  border: 2px solid #a83028;
+  color: rgb(250, 250, 250);
+  background-color: #a83028;
+}
+.btn-warning:hover{
+  border: 2px solid rgb(152, 155, 1);
+  color: rgb(250, 250, 250);
+  background-color: rgb(152, 155, 1);
+}
+.submit{
+  position: relative;
+  margin-left: 45%;
+}
+
+/*beranda*/
+.sambutan{
+  float: left;
+  margin-right: 25px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 300px;
+  height: 450px;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.sambutan h1{
+  position: relative;
+  left: 60px;
+  top: 30px;
+  color: rgb(0, 25, 95);
+}
+.sambutan .kalimat{
+  position: relative;
+  margin: 50px 20px 20px 20px;
+  color: rgb(40, 67, 141);
+}
+.isi_beranda{
+  float: left;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 800px;
+  height: 650px;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.isi_beranda h1{
+  position: relative;
+  left: 30px;
+  top: 10px;
+  font-size: 15pt;
+  color: rgb(0, 25, 95);
+}
+.isi_beranda .kalimat{
+  position: relative;
+  margin: 50px 20px 20px 20px;
+  color: rgb(40, 67, 141);
+}
+.img img{
+  float: left;
+  margin-left: 20px;  
+  margin-right: 40px;
+  width: 100px;
+  border-radius: 100px;  
+}
+
+/*halaman profile*/
+.img-profile img{
+  position: relative;
+  left: 35%;
+  top: 35px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;  
+}
+.form_profile{
+  padding: 50px;
+  margin: 10% auto;
+  width: 700px;
+  height: auto;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.form_profile h1{
+  position: relative;
+  left: 36%;
+  width: 200px;
+  color: rgb(40, 67, 141);
+  font-size: 24pt;
+}
+.form_profile .keterangan{
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 70px auto;
+  height: 360px;
+  width: 500px;
+  border: 4px solid rgb(40, 67, 141);
+  border-radius: 10px;
+}
+.form_profile .sub-keterangan{
+  background-color: rgb(0, 160, 189);
+}
+.form_profile h3{
+  color: rgb(0, 160, 189);
+  margin-top: 36px;
+  background-color: rgb(40, 67, 141);
+}
+.form_profile p{
+  margin-top: -20px;
+  font-size: 14pt;
+  color: white;
+}
+
+/*halaman kampus*/
+.form_kampus{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  margin: 10% auto;
+  width: 700px;
+  height: 1750px;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.form_kampus h1{
+  position: relative;
+  text-align: center;
+  left: 20%;
+  width: 400px;
+  color: rgb(0, 0, 0);
+  font-size: 24pt;
+}
+.form_kampus p{
+  color: rgb(40, 67, 141);
+}
+.img-kampus img{
+  position: relative;
+  top: 35px;
+  width: 700px;
+  height: 450px;
+  border-radius: 20px;  
+  margin-bottom: 60px;
+}
+
+/*halaman kota*/
+.form_kota{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  margin: 10% auto;
+  width: 700px;
+  height: 1650px;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.form_kota h1{
+  position: relative;
+  text-align: center;
+  left: 20%;
+  width: 400px;
+  color: rgb(0, 0, 0);
+  font-size: 24pt;
+}
+.form_kota p{
+  color: rgb(40, 67, 141);
+}
+.img-kota img{
+  position: relative;
+  left: 35%;
+  top: 35px;
+  width: 200px;
+  height: 240px;
+  border-radius: 20px;  
+  margin-bottom: 60px;
+}
+.img-kota-img2 img{
+  position: relative;
+  left: 20%;
+  top: 35px;
+  width: 400px;
+  height: 240px;
+  border-radius: 20px;  
+  margin-bottom: 60px;
+}
+
+/*layanan*/
+.form{
+  float: left;
+  margin-right: 25px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 300px;
+  height: 500px;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.form h1{
+  position: relative;
+  left: 30px;
+  top: 10px;
+  font-size: 15pt;
+  color: rgb(0, 25, 95);
+}
+.form .content{
+  position: relative;
+  margin: 0px 20px 20px 20px;
+  color: rgb(40, 67, 141);
+}
+.form .content h1{
+  position: relative;
+  width: 100%;
+  margin: 10px 20px 30px 20px;
+  color: rgb(40, 67, 141);
+}
+.form .form-input{
+  position: relative;
+  margin: 50px 20px 20px 20px;
+  color: rgb(40, 67, 141);
+}
+.form .form-input .form-group{
+  position: relative;
+  margin: 0px 20px 20px 20px;
+}
+.form .form-input .form-group input{
+  width: calc(100% - 10px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(40, 67, 141);;
+  color: rgb(66, 66, 66);
+}
+.form .form-input .submit input{
+  width: calc(50%);
+  padding: 8px 10px;
+  margin-top: 35px;
+  margin-left: 25%;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: 2px solid rgb(40, 67, 141);;
+  color: rgb(40, 67, 141);;
+  border-radius: 10px;
+}
+.form .form-input .form-group select{
+  width: calc(100% - 25px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: 2px solid rgb(40, 67, 141);;
+  color: rgb(66, 66, 66);
+  border-radius: 10px;
+}
+.form .form-input .submit input:hover{
+  background-color: rgb(40, 67, 141);;
+  border: 2px solid rgb(40, 67, 141);;
+  color: rgb(255, 255, 255);
+}
+.hasil{
+  float: left;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 800px;
+  height: 500px;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.hasil h1{
+  position: relative;
+  left: 30px;
+  top: 10px;
+  font-size: 15pt;
+  color: rgb(0, 25, 95);
+}
+.hasil .content{
+  position: relative;
+  margin: 50px 20px 20px 30px;
+  color: rgb(40, 67, 141);
+}
+.hasil .content .refrensi{ 
+  clear: both;
+  margin: 0;
+}
+.form .content .refrensi .link{
+  color: rgb(40, 67, 141);
+}
+.form .content .refrensi .link:hover{
+  color: rgb(16, 96, 255);
+}
+
+/*halaman list teman*/
+.form_list{
+  padding: 50px;
+  margin: 10% auto;
+  width: 70%;
+  height: auto;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.form_list h1{
+  position: relative;
+  text-align: center;
+  left: auto;
+  width: 100%;
+  color: rgb(0, 25, 95);
+  font-size: 24pt;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 25px auto;
+}
+th{
+  padding: 15px;
+  text-align: center;
+  border-top: 2px solid rgb(0, 25, 95);
+  border-bottom: 2px solid rgb(0, 25, 95);
+  color: rgb(0, 25, 95);
+}
+td{
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid rgb(0, 25, 95);
+}
+td img{
+  width: 100px;
+}
+
+/*form data*/
+.form_data{
+  padding: 50px;
+  margin: 10% auto;
+  width: 50%;
+  height: auto;
+  background: rgba(40, 67, 141, 0.288);
+  border-radius: 15px; 
+}
+.form_data h1{
+  text-align: center;
+  color: rgb(0, 25, 95);
+}
+.form_data .form-input{
+  position: relative;
+  margin: 50px 20px 20px 20px;
+  color: rgb(40, 67, 141);
+}
+.form-group{
+  position: relative;
+  margin: 0px 20px 20px 20px;
+}
+.form-group label{
+  font-weight: bolder;
+  font-size: 14pt;
+}
+.form-group .input{
+  width: calc(100% - 10px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(40, 67, 141);
+  color: rgb(66, 66, 66);
+}
+.form-group select{
+  text-align: center;
+  width: calc(100% - 20%px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: 2px solid rgb(40, 67, 141);
+  color: rgb(40, 67, 141);
+  border-radius: 10px;
+}
+.form-group .checkbox{
+  display: block;
+  position: relative;
+  padding-top: 5px;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  
+}
+.form-group .checkbox input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+.form-group .radio{
+  display: block;
+  position: relative;
+  padding-top: 5px;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  
+}
+.form-group .radio input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+  background-color: #eee;
+}
